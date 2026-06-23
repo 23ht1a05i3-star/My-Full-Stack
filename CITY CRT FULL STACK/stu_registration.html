@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Basic Information</legend>
+    <h1>Student Registration</h1>
+    <label for="name" required>Name</label>
+    <input 
+    type="text"
+    id="name"
+    /><br><br>
+
+    <label for="email">Email</label>
+    <input 
+    type="email"
+    id="email"
+    /><br><br>
+
+    <label for="Date">DOB</label>
+    <input 
+    type="date"
+    id="Date"
+    /><br><br>
+
+    <label for="gender">Gender:</label>
+    <input 
+    name="Gender" 
+    type="radio"
+    id="gender"
+    />Male
+    <input 
+    name="Gender"  
+    type="radio"
+    id="gender"
+    />Female
+    <input 
+    name="Gender" 
+    type="radio"
+    id="gender"
+    />others<br><br>
+    <label for="age">Age:</label>
+    <input 
+    type="number"
+    id ="age"
+    min ="18"
+    max="60"
+    >
+
+        </fieldset>
+    <fieldset>
+        <legend>Academic Details</legend>
+    <label>Branch</label>
+    <select>
+        <option>CSE</option>
+        <option>CAI</option>
+        <option>CDS</option>
+        <option>CS</option>
+        <option>ECE</option>
+        <option>CAIML</option>
+        <option>CIVIL</option>
+
+    </select>
+    <br><br>
+    <label for="bio">Bio</label>
+    <textarea 
+    id="bio"
+    placeholder="Enter something interesting"
+    >
+    </textarea><br><br>
+    <label>Resume:</label>
+    <input type="file" /><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Additional Details</legend>
+        <label for="progress">progress on tech</label>
+        <input
+        type="range"
+        id="progress"
+        min="0"
+        max="10"
+        >
+    </fieldset>
+    <input type="checkbox"/>
+    <label>I accept this info is correct as per my knowledge</label><br><br>
+    <input type="checkbox"/>
+    <label>I accept </label><br><br>
+    <input type="checkbox"/>
+    <label>I accept </label><br><br>
+    <input type="checkbox"/>
+    <label>I accept </label><br><br>
+    <input type="checkbox"/>
+    <label>I accept </label><br><br>
+    <button type="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>

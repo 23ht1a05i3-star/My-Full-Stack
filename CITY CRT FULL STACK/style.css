@@ -1,0 +1,21 @@
+h1{
+    color: aqua;
+    font-style: italic;
+}
+p{
+    color: brown;
+    background-color: blue;
+    
+}
+/* Class Selector */
+.title{
+    color:brown;
+}
+/*Id Selector */
+#main-heading{
+    color: brown;
+}
+/*Universal Selector*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}

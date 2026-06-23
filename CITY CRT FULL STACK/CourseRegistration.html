@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourseRegistration</title>
+</head>
+<body>
+    
+    <h2>Course Registration Form</h2>
+
+    <form action="#" method="post">
+
+        <label for="name">Student Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+        </select><br><br>
+
+        <label>Mode of Learning:</label><br>
+        <input type="radio" id="online" name="mode" value="Online">
+        <label for="online">Online</label>
+
+        <input type="radio" id="offline" name="mode" value="Offline">
+        <label for="offline">Offline</label><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+ 
+</body>
+</html>

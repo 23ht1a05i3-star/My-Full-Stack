@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portfolio</title>
+</head>
+<body>
+
+<header>
+    <h1>Rahul Kumar Portfolio</h1>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#about">About Me</a> |
+        <a href="#education">Education</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section id="home">
+    <h2>Welcome</h2>
+    <p>Welcome to my student portfolio website.</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <article>
+        <p>I am Rahul Kumar, a Computer Science student passionate about web development and software engineering.</p>
+        <p><strong>Career Goal:</strong> To become a Full Stack Developer.</p>
+        <p><strong>Interests:</strong> Coding, Problem Solving, Artificial Intelligence, Cricket.</p>
+    </article>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <table border="1">
+        <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Board/University</th>
+            <th>Year</th>
+            <th>Percentage/CGPA</th>
+        </tr>
+
+        <tr>
+            <td>B.Tech CSE</td>
+            <td>ABC Engineering College</td>
+            <td>JNTU</td>
+            <td>2026</td>
+            <td>8.8 CGPA</td>
+        </tr>
+
+        <tr>
+            <td>Intermediate</td>
+            <td>XYZ Junior College</td>
+            <td>State Board</td>
+            <td>2022</td>
+            <td>92%</td>
+        </tr>
+
+        <tr>
+            <td>SSC</td>
+            <td>ZP High School</td>
+            <td>State Board</td>
+            <td>2020</td>
+            <td>95%</td>
+        </tr>
+    </table>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>SQL</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <article>
+        <h3>Student Management System</h3>
+        <p><strong>Technology:</strong> Java, MySQL</p>
+        <p>Manages student records efficiently.</p>
+    </article>
+
+    <article>
+        <h3>Online Food Ordering Website</h3>
+        <p><strong>Technology:</strong> HTML, CSS</p>
+        <p>Allows users to browse and order food online.</p>
+    </article>
+
+    <article>
+        <h3>Weather Forecast App</h3>
+        <p><strong>Technology:</strong> HTML, JavaScript</p>
+        <p>Displays weather information using API integration.</p>
+    </article>
+</section>
+
+<section>
+    <h2>Resume Upload Form</h2>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+
+        <label>Phone:</label><br>
+        <input type="tel" pattern="[0-9]{10}" required><br><br>
+
+        <label>Upload Resume:</label><br>
+        <input type="file" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<section>
+    <h2>Multimedia</h2>
+
+    <h3>Self Introduction Audio</h3>
+    <audio controls>
+        <source src="intro.mp3" type="audio/mpeg">
+    </audio>
+
+    <h3>Introduction Video</h3>
+    <video width="400" controls>
+        <source src="intro.mp4" type="video/mp4">
+    </video>
+</section>
+
+<section>
+    <h2>College Location</h2>
+
+    <iframe
+        src="https://www.google.com/maps/embed"
+        width="600"
+        height="300">
+    </iframe>
+</section>
+
+<section id="contact">
+    <h2>Contact Form</h2>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+
+        <label>Subject:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea rows="5" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <h3>Social Links</h3>
+
+    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a><br>
+    <a href="https://github.com" target="_blank">GitHub</a>
+
+    <p>&copy; 2025 Rahul Kumar</p>
+</footer>
+
+</body>
+</html>

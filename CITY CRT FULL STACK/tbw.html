@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Explore World Travel Agency</title>
+</head>
+<body>
+
+<header>
+    <h1>Explore World</h1>
+
+    <nav>
+        <a href="#about">About Us</a> |
+        <a href="#packages">Packages</a> |
+        <a href="#booking">Booking</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section id="about">
+    <h2>About Us</h2>
+
+    <p>Explore World is a travel agency offering affordable and memorable tour packages worldwide.</p>
+
+    <h3>Services Offered</h3>
+    <ul>
+        <li>Domestic Tours</li>
+        <li>International Tours</li>
+        <li>Hotel Booking</li>
+        <li>Flight Booking</li>
+        <li>Travel Insurance</li>
+    </ul>
+</section>
+
+<section id="packages">
+    <h2>Travel Packages</h2>
+
+    <table border="1">
+        <tr>
+            <th>Destination</th>
+            <th>Duration</th>
+            <th>Cost</th>
+            <th>Available Seats</th>
+        </tr>
+
+        <tr>
+            <td>Goa</td>
+            <td>4 Days</td>
+            <td>₹10,000</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <td>Kerala</td>
+            <td>5 Days</td>
+            <td>₹15,000</td>
+            <td>15</td>
+        </tr>
+
+        <tr>
+            <td>Manali</td>
+            <td>6 Days</td>
+            <td>₹18,000</td>
+            <td>10</td>
+        </tr>
+
+        <tr>
+            <td>Dubai</td>
+            <td>5 Days</td>
+            <td>₹50,000</td>
+            <td>12</td>
+        </tr>
+
+        <tr>
+            <td>Singapore</td>
+            <td>6 Days</td>
+            <td>₹60,000</td>
+            <td>8</td>
+        </tr>
+    </table>
+</section>
+
+<aside>
+    <h2>Travel Rules</h2>
+
+    <h3>Booking Steps</h3>
+
+    <ol>
+        <li>Select Destination</li>
+        <li>Fill Booking Form</li>
+        <li>Make Payment</li>
+        <li>Receive Confirmation</li>
+    </ol>
+
+    <h3>Guidelines</h3>
+
+    <ul>
+        <li>Carry valid ID proof.</li>
+        <li>Reach on reporting time.</li>
+        <li>Follow local regulations.</li>
+        <li>Keep emergency contacts.</li>
+    </ul>
+</aside>
+
+<section id="booking">
+    <h2>Travel Booking Form</h2>
+
+    <form>
+
+        <label>Traveler Name:</label><br>
+        <input type="text" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" required><br><br>
+
+        <label>Mobile:</label><br>
+        <input type="tel" pattern="[0-9]{10}" required><br><br>
+
+        <label>Destination:</label><br>
+        <select required>
+            <option>Goa</option>
+            <option>Kerala</option>
+            <option>Manali</option>
+            <option>Dubai</option>
+            <option>Singapore</option>
+        </select>
+        <br><br>
+
+        <label>Travel Date:</label><br>
+        <input type="date" required><br><br>
+
+        <label>Number of Travelers:</label><br>
+        <input type="number" min="1" required><br><br>
+
+        <label>Special Requests:</label><br>
+        <textarea rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="Book Now">
+
+    </form>
+</section>
+
+<section>
+    <h2>Destination Video</h2>
+
+    <video width="400" controls>
+        <source src="travel.mp4" type="video/mp4">
+    </video>
+
+    <h2>Guide Audio</h2>
+
+    <audio controls>
+        <source src="guide.mp3" type="audio/mpeg">
+    </audio>
+</section>
+
+<section>
+    <h2>Travel Vlog</h2>
+
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+    </iframe>
+</section>
+
+</main>
+
+<footer id="contact">
+    <h2>Contact Us</h2>
+
+    <p>Address: MG Road, Hyderabad, Telangana</p>
+    <p>Email: exploreworld@gmail.com</p>
+    <p>Phone: +91 9876543210</p>
+
+    <p>&copy; 2025 Explore World Travel Agency</p>
+</footer>
+
+</body>
+</html>
