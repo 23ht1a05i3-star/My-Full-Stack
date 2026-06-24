@@ -1,0 +1,76 @@
+div{
+    display: block;
+}
+span{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+
+
+}
+/* div{
+    /* visibility: hidden; */
+    /* overflow: hidden;
+    overflow: auto;
+} */
+/* position properties */
+/* div{
+    position: relative;
+    position: static;
+    top: 50px; */
+    /* all come in one line */
+    /* display: inline-block; */
+    /* bottom: 20px;
+}
+.parent{
+    position: relative;
+} */ */
+
+/* .child{
+    position: absolute;
+    top: 0;
+    right: o;
+}
+div{
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+h1{
+    position: sticky;
+    top: 30px;
+    bottom: 40px;
+}*/
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 30px;
+} 
+.item{
+    width: 100px;
+    margin: 20px;
+    height: 30px;
+   
+    padding: 20px;
+    text-align: center;
+    background-color: coral;
+    
+}
+/*wrapp
+1 2 3 4 5 6 7 8
+wrap:
+1 2 3 4 
+5 6 7 8
+*/
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
