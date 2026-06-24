@@ -1,0 +1,52 @@
+.box{
+    height: 80px;
+    width: 80px;
+    background: skyblue;
+    position: relative;
+    animation:move 2s infinite alternate;
+    animation: bounce 3s 3;
+}
+@keyframes move{
+    from{
+        left:0
+    }
+    to{
+        left:300px
+    }
+}
+@keyframes bounce{
+    0%{left:0;background: red;}
+    50%{left:200px;background: blue;}
+    100%{left:0;background: yellow;}
+}
+.box1{
+    height: 80px;
+    width: 80px;
+    background: skyblue;
+    animation: colorchange 3s infinite
+
+}
+@keyframes colorchange{
+    from{
+        background: brown;
+    }
+    to{
+        background:content-box;
+    }
+}
+.spinner{
+    width: 50px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 50%;
+    border-top: 5px solid blue;
+    animation: spin 1s infinite
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(380deg);
+    }
+}
