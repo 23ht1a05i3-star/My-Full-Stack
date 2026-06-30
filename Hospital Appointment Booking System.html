@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hospital Appointment Booking</title>
+  <link rel="stylesheet" href="Modernize the Hospital Appointment Booking System.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>CityCare Hospital</h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#doctors">Doctors</a> |
+      <a href="#appointment">Book Appointment</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Hospital -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>CityCare Hospital is dedicated to providing world-class healthcare services. We offer advanced facilities, experienced doctors, and compassionate care for all patients.</p>
+    </section>
+
+    <!-- Doctors Information Table -->
+    <section id="doctors">
+      <h2>Our Doctors</h2>
+      <table border="1">
+        <tr>
+          <th>Name</th>
+          <th>Specialization</th>
+          <th>Experience</th>
+          <th>Available Days</th>
+        </tr>
+        <tr>
+          <td>Dr. R.Ranjith Kumar</td>
+          <td>Cardiologist</td>
+          <td>15 years</td>
+          <td>Mon, Wed, Fri</td>
+        </tr>
+        <tr>
+          <td>Dr. T.Anand Kishore</td>
+          <td>Pediatrician</td>
+          <td>10 years</td>
+          <td>Tue, Thu, Sat</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Appointment Form -->
+    <section id="appointment">
+      <h2>Book an Appointment</h2>
+      <form>
+        <label>Patient Name: <input type="text" name="pname" required></label><br><br>
+        <label>Email: <input type="email" name="email" required></label><br><br>
+        <label>Mobile: <input type="tel" name="mobile" pattern="[0-9]{10}" required></label><br><br>
+        <label>Age: <input type="number" name="age" min="1" max="120" required></label><br><br>
+        <label>Gender:
+          <select name="gender" required>
+            <option value="">Select</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+          </select><br>
+        </label><br>
+        <label>Doctor:
+          <select name="doctor" required>
+            <option value="">Select</option>
+            <option>Dr. R.Ranjith Kumar</option>
+            <option>Dr. T.Anand Kishore</option>
+          </select><br>
+        </label><br>
+        <label>Date: <input type="date" name="date" required></label><br><br>
+        <label>Symptoms: <textarea name="symptoms" required></textarea></label><br><br>
+        <input type="submit" value="Book Appointment">
+      </form>
+    </section><br>
+
+    <!-- Emergency Contact -->
+    <aside>
+      <h2>Emergency Contact</h2>
+      <p>🚑 Ambulance: 108</p>
+      <p>📞 Helpline: 1800-123-456</p>
+    </aside>
+
+    <!-- Multimedia -->
+    <section id="media">
+      <h2>Hospital Introduction</h2>
+      <video controls width="400">
+        <source src="hospital_intro.mp4" type="video/mp4">
+      </video>
+      <p>Emergency Announcement:</p>
+      <audio controls>
+        <source src="emergency.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+    <!-- Location -->
+    <section id="location">
+      <h2>Find Us</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=Hospital..." width="600" height="450" style="border:0;" allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 CityCare Hospital</p>
+  </footer>
+
+</body>
+</html>
