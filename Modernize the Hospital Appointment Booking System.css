@@ -1,0 +1,201 @@
+:root{
+    --hospital-color:#0f766e;
+    --accent-color:#14b8a6;
+    --text-color:#222;
+    --border-color:#d1d5db;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    color:var(--text-color);
+}
+
+/* Header */
+
+.hero{
+    height:80vh;
+
+    background-image:url(images3.jpeg);
+
+    background-size:cover;
+    background-position:center;
+
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 40px;
+}
+
+nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    border:2px solid transparent;
+    padding:8px;
+
+    transition:all 0.4s ease;
+}
+
+nav a:hover{
+    background:white;
+    color:var(--hospital-color);
+    border-color:white;
+}
+
+.hero-content{
+    text-align:center;
+    padding-top:180px;
+}
+
+/* Doctor Cards */
+
+.doctors{
+    padding:50px;
+    text-align:center;
+}
+
+.doctor-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.doctor-card{
+    width:250px;
+    padding:20px;
+    border:1px solid var(--border-color);
+
+    transition:0.4s;
+}
+
+.doctor-card:hover{
+    transform:scale(1.05) translateY(-10px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Appointment Form */
+
+.appointment{
+    padding:50px;
+    text-align:center;
+}
+
+form{
+    width:350px;
+    margin:auto;
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+    animation:slideLeft 1s ease;
+}
+
+input{
+    padding:12px;
+}
+
+button{
+    padding:12px;
+    border:none;
+
+    background:var(--hospital-color);
+    color:white;
+
+    transition:0.4s;
+}
+
+button:hover{
+    background:var(--accent-color);
+    transform:scale(1.05);
+}
+
+/* Emergency */
+
+.emergency{
+    text-align:center;
+    padding:40px;
+    background:red;
+    color:white;
+
+    animation:pulse 1s infinite;
+}
+
+/* Animations */
+
+@keyframes slideLeft{
+    from{
+        transform:translateX(-100px);
+        opacity:0;
+    }
+
+    to{
+        transform:translateX(0);
+        opacity:1;
+    }
+}
+
+@keyframes pulse{
+    0%{
+        opacity:1;
+    }
+
+    50%{
+        opacity:0.5;
+    }
+
+    100%{
+        opacity:1;
+    }
+}
+
+/* Mobile */
+
+@media(max-width:767px){
+
+    nav{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    nav ul{
+        flex-direction:column;
+    }
+
+    form{
+        width:90%;
+    }
+}
+
+/* Tablet */
+
+@media(min-width:768px) and (max-width:1024px){
+
+    .doctor-card{
+        width:300px;
+    }
+}
+
+/* Desktop */
+
+@media(min-width:1025px){
+
+    .doctor-card{
+        width:280px;
+    }
+}
