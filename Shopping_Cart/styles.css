@@ -1,0 +1,44 @@
+body{
+font-family:Arial;
+margin:20px;
+}
+
+#productContainer{
+display:flex;
+gap:20px;
+}
+
+/* .card{
+border:1px solid gray;
+padding:10px;
+width:200px;
+}
+
+button{
+margin:3px;
+}
+
+table{
+border-collapse:collapse;
+width:100%;
+margin-top:20px;
+
+}
+
+th,td{
+padding:8px;
+text-align:center;
+} */
+ .container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 120px;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px lightgray;
+}
