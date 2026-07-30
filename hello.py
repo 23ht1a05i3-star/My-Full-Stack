@@ -11,8 +11,9 @@ a = 10
 b = 20
 print("sum of two numbers:",+sum)
 
-name = "Narendra"
-age = 21
+#mystring and integer
+name = "Dinesh"
+age = 19
 
 print(name)
 print(age)
