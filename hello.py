@@ -17,7 +17,7 @@ age = 19
 
 print(name)
 print(age)
-
+#type of data
 print(type(a))
 print(type(name))
 print(type(age))
